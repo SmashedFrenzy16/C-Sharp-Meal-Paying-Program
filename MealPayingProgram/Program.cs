@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+// See https://aka.ms/new-console-template for more information
 
 using System.Transactions;
 
@@ -72,12 +72,7 @@ while (totalPay > 0)
 
 } 
 
-if (totalPay == 0)
-{
-
-    Console.WriteLine("You have paid the bill!");
-
-} else if (totalPay < 0)
+if (totalPay <= 0)
 {
     Console.Write("Do you want to give a tip (y/n): ");
 
@@ -97,7 +92,7 @@ if (totalPay == 0)
     }
     else
     {
-        
+        Console.WriteLine("You have apid the bill successfully (if your remaining amount to be paid is negative, it will not be charged extra from £0)!");
     }
 
 }
