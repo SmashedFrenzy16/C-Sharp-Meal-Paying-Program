@@ -92,7 +92,7 @@ if (totalPay <= 0)
     }
     else
     {
-        Console.WriteLine("You have apid the bill successfully (if your remaining amount to be paid is negative, it will not be charged extra from £0)!");
+        Console.WriteLine("You have paid the bill successfully (if your remaining amount to be paid is negative, it will not be charged extra from £0)!");
     }
 
 }
